@@ -117,6 +117,31 @@ li {
   padding: 20px;
 }
 
+.navigation-links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.navigation-links a {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.contact-link {
+  background: var(--accent-color);
+  box-shadow: var(--box-shadow);
+  color: var(--secondary-color);
+}
+
+.about-link {
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+  border: 1px solid var(--trim-color);
+}
+
 @media (max-width: 786px) {
   .nutrition-values,
   .prep-time,
