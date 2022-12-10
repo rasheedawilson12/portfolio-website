@@ -1,0 +1,104 @@
+:root {
+  --primary-color: #ccd6a6;
+  --secondary-color: #557153;
+  --accent-color: #f4ead5;
+  --trim-color: #fffbe9;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+body {
+  background-color: var(--primary-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+p {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+li {
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.wrapper {
+  background: var(--accent-color);
+  border-radius: 20px;
+}
+.wrapper-2 {
+  background: var(--trim-color);
+  border-radius: 20px;
+}
+.primary-link {
+  background-color: var(--secondary-color);
+  color: white;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.nutrition {
+  list-style: none;
+}
+
+.steps {
+  list-style: none;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.time {
+  font-size: 16px;
+  line-height: 20px;
+  list-style: none;
+}
+
+.time-value {
+  font-size: 16px;
+  line-height: 20px;
+  list-style: none;
+}
+
+.utensils {
+  display: inline;
+  margin: 0 28px;
+}
+.recipe-img {
+  display: flex;
+  margin: 0 auto;
+}
+
+.serving-size {
+  font-size: 16px;
+  opacity: 0.6;
+  margin-top: 0;
+}
+
+.serving {
+  size: 16px;
+  opacity: 0.6;
+}
+
+.nutrition-div {
+  margin-top: 55px;
+}
+
+.landing-page-border {
+  border: 5px solid var(--trim-color);
+}
+
+@media (max-width: 600px) {
+  .nutrition-values,
+  .prep-time,
+  .utensil-list,
+  .recipe-steps {
+    display: none;
+  }
+}
