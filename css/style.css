@@ -28,6 +28,9 @@ li {
   line-height: 25px;
 }
 
+.nav-bar {
+  background-color: var(--trim-color);
+}
 .wrapper {
   background: var(--accent-color);
   border-radius: 20px;
@@ -107,6 +110,11 @@ li {
   background-color: var(--accent-color);
   padding: 20px;
   margin: 10px;
+}
+
+.intro-paragraph p {
+  background-color: var(--accent-color);
+  padding: 20px;
 }
 
 @media (max-width: 786px) {
